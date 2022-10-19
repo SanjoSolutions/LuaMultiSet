@@ -10,7 +10,7 @@ local function create(list)
 end
 
 local function equals(a, b)
-    return Object.equals(a, b)
+    return Object2.equals(a, b)
 end
 
 MultiSet = {
